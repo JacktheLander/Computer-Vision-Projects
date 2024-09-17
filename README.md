@@ -1,7 +1,7 @@
-# Personal-Projects
+# Computer Vision Projects
 This is a repository of Python projects I made for an online course in computer vision
 
-# Computer Vision Packages
+# Python Packages
 cvzone==1.5.6
 ultralytics==8.0.26
 hydra-core>=1.2.0
