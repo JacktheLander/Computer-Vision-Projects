@@ -1,0 +1,41 @@
+[2024-09-30 12:59:59] Epoch [1], Loss: 1.6466, Accuracy: 24.05%, Time: 36.11 seconds
+[2024-09-30 13:00:34] Epoch [2], Loss: 1.5247, Accuracy: 23.45%, Time: 34.90 seconds
+[2024-09-30 13:01:09] Epoch [3], Loss: 1.5143, Accuracy: 24.10%, Time: 34.72 seconds
+[2024-09-30 13:01:45] Epoch [4], Loss: 1.5107, Accuracy: 25.74%, Time: 36.30 seconds
+[2024-09-30 13:02:21] Epoch [5], Loss: 1.5093, Accuracy: 23.61%, Time: 35.96 seconds
+[2024-09-30 13:02:56] Epoch [6], Loss: 1.5066, Accuracy: 25.68%, Time: 34.82 seconds
+[2024-09-30 13:03:31] Epoch [7], Loss: 1.5051, Accuracy: 28.24%, Time: 35.11 seconds
+[2024-09-30 13:04:06] Epoch [8], Loss: 1.5037, Accuracy: 23.17%, Time: 35.54 seconds
+[2024-09-30 13:04:41] Epoch [9], Loss: 1.5017, Accuracy: 26.01%, Time: 34.62 seconds
+-
+// Batch_size = 64, learning_rate = 1e-4, loss improved slightly but not enough accuracy improvement to be valid
+-
+[2024-09-30 13:10:42] Epoch [1], Loss: 1.6719, Accuracy: 23.77%, Time: 35.74 seconds
+[2024-09-30 13:11:17] Epoch [2], Loss: 1.5332, Accuracy: 24.05%, Time: 34.33 seconds
+[2024-09-30 13:11:52] Epoch [3], Loss: 1.5142, Accuracy: 26.12%, Time: 35.04 seconds
+[2024-09-30 13:12:26] Epoch [4], Loss: 1.5129, Accuracy: 24.21%, Time: 34.28 seconds
+[2024-09-30 13:13:00] Epoch [5], Loss: 1.5118, Accuracy: 24.97%, Time: 34.52 seconds
+[2024-09-30 13:13:35] Epoch [6], Loss: 1.5121, Accuracy: 24.10%, Time: 34.42 seconds
+[2024-09-30 13:14:09] Epoch [7], Loss: 1.5106, Accuracy: 23.88%, Time: 34.54 seconds
+-
+// Added learning rate scheduler and image augmentation, no improvement
+-
+[2024-09-30 13:31:31] Epoch [1], Loss: 1.5447, Accuracy: 31.73%, Time: 842.97 seconds
+[2024-09-30 13:47:21] Epoch [2], Loss: 1.4520, Accuracy: 35.77%, Time: 949.63 seconds
+[2024-09-30 14:03:12] Epoch [3], Loss: 1.3987, Accuracy: 38.33%, Time: 951.87 seconds
+[2024-09-30 14:18:57] Epoch [4], Loss: 1.3667, Accuracy: 39.48%, Time: 944.84 seconds
+[2024-09-30 14:34:40] Epoch [5], Loss: 1.3463, Accuracy: 39.37%, Time: 942.40 seconds
+[2024-09-30 14:50:17] Epoch [6], Loss: 1.3002, Accuracy: 45.31%, Time: 937.54 seconds
+[2024-09-30 15:05:52] Epoch [7], Loss: 1.2904, Accuracy: 43.62%, Time: 934.17 seconds
+[2024-09-30 15:21:26] Epoch [8], Loss: 1.2549, Accuracy: 47.66%, Time: 934.25 seconds
+[2024-09-30 15:37:04] Epoch [9], Loss: 1.2249, Accuracy: 49.13%, Time: 938.56 seconds
+[2024-09-30 15:52:49] Epoch [10], Loss: 1.1855, Accuracy: 52.45%, Time: 944.24 seconds
+[2024-09-30 16:08:31] Epoch [11], Loss: 1.1762, Accuracy: 51.20%, Time: 942.07 seconds
+[2024-09-30 16:24:13] Epoch [12], Loss: 1.1293, Accuracy: 53.93%, Time: 942.32 seconds
+[2024-09-30 16:39:55] Epoch [13], Loss: 1.0986, Accuracy: 54.91%, Time: 942.03 seconds
+Best simplified model saved with accuracy: 54.91% to checkpoint.pth
+-
+// added 3rd convolution block, global average pooling, fully connected layers, and a dropout layer
+// Improved significantly but was too slow, Batch size = 64 is too large and spotted error in training data
+// Training includes images with multiple classes - this is harmful to training, should include only one class/image
+-
