@@ -22,3 +22,4 @@ while True:
         break
         
 # We can recognize this fails because the frame analysis causes the picture quality to decrease beyond functionality
+# Start using YOLO for improved results
