@@ -3,7 +3,7 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture("Videos/JCole Worship.MOV")
+cap = cv2.VideoCapture("Video.MOV")
 pTime = 0
 
 mpFaceDetection = mp.solutions.face_detection
