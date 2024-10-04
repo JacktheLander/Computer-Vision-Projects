@@ -20,4 +20,5 @@ while True:
     cv2.imshow("Result", imgCropped)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-#We can recognize this fails because the frame analysis causes the picture quality to decrease beyond functionality
+        
+# We can recognize this fails because the frame analysis causes the picture quality to decrease beyond functionality
