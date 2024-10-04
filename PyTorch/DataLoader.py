@@ -92,9 +92,9 @@ data_transforms = transforms.Compose([
 ])
 
 # Update root directory and text file paths
-root_dir = "C:\\Users\\Jaxba\\PycharmProjects\\Object-Classification\\Surgical-Dataset\\Images"
-train_txt = "C:\\Users\\Jaxba\\PycharmProjects\\Object-Classification\\Surgical-Dataset\\Test-Train Groups\\train-obj_detector.txt"
-test_txt = "C:\\Users\\Jaxba\\PycharmProjects\\Object-Classification\\Surgical-Dataset\\Test-Train Groups\\test-obj_detector.txt"
+root_dir = "\\Object-Classification\\Surgical-Dataset\\Images"
+train_txt = "\\Object-Classification\\Surgical-Dataset\\Test-Train Groups\\train-obj_detector.txt"
+test_txt = "\\Object-Classification\\Surgical-Dataset\\Test-Train Groups\\test-obj_detector.txt"
 
 # Create datasets for training and testing
 train_dataset = SurgicalEquipmentDataset(root_dir=root_dir, file_list=train_txt, transform=data_transforms)
