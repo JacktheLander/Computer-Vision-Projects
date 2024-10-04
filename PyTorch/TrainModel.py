@@ -60,8 +60,8 @@ def train_model():
     num_classes = 5
 
     # Define the data directory and text files
-    root_dir = "C:\\Users\\Jaxba\\PycharmProjects\\Object-Classification\\Surgical-Dataset\\Images"
-    train_txt = "C:\\Users\\Jaxba\\PycharmProjects\\Object-Classification\\Surgical-Dataset\\Test-Train Groups\\train-obj_detector.txt"
+    root_dir = "Object-Classification\\Surgical-Dataset\\Images"
+    train_txt = "Object-Classification\\Surgical-Dataset\\Test-Train Groups\\train-obj_detector.txt"
 
     # Define image transformations
     data_transforms = transforms.Compose([
