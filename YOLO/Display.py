@@ -5,8 +5,7 @@ from ultralytics import YOLO
 # Load the YOLOv8 model (YOLOv8n is the nano version for speed)
 model = YOLO("yolov8n.pt")
 
-# Initialize video capture (replace 'video.mp4' with your video file)
-cap = cv2.VideoCapture("IMG_6342.MOV")
+cap = cv2.VideoCapture("video.mp4")
 
 # Parameters
 movement_speed = 0.05  # How quickly the box moves and resizes (smoothing factor)
