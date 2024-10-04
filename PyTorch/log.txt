@@ -35,7 +35,7 @@
 [2024-09-30 16:39:55] Epoch [13], Loss: 1.0986, Accuracy: 54.91%, Time: 942.03 seconds
 Best simplified model saved with accuracy: 54.91% to checkpoint.pth
 -
-// added 3rd convolution block, global average pooling, fully connected layers, and a dropout layer
+// Added 3rd convolution block, global average pooling, fully connected layers, and a dropout layer
 // Improved significantly but was too slow, Batch size = 64 is too large and spotted error in training data
 // Training includes images with multiple classes - this is harmful to training, should include only one class/image
 -
