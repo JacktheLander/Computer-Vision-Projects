@@ -10,7 +10,7 @@ def initialize_weights(module):
 
 # Define the SurgicalEquipmentNet architecture
 class SurgicalEquipmentNet(nn.Module):
-    def __init__(self, num_classes=5):
+    def __init__(self, num_classes=4):
         super(SurgicalEquipmentNet, self).__init__()
 
         # First Convolutional Block
@@ -74,5 +74,5 @@ class SurgicalEquipmentNet(nn.Module):
 
 
 # Example instantiation for a specified number of classes
-model = SurgicalEquipmentNet(num_classes=5)
+model = SurgicalEquipmentNet(num_classes=4)
 print(model)
