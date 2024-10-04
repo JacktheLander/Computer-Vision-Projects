@@ -39,3 +39,15 @@ Best simplified model saved with accuracy: 54.91% to checkpoint.pth
 // Improved significantly but was too slow, Batch size = 64 is too large and spotted error in training data
 // Training includes images with multiple classes - this is harmful to training, should include only one class/image or multi-label classification
 -
+[2024-09-30 21:32:24] Epoch [1], Loss: 0.7613, Accuracy: 34.11%, Time: 816.71 seconds
+[2024-09-30 21:46:00] Epoch [2], Loss: 0.7021, Accuracy: 34.11%, Time: 816.21 seconds
+[2024-09-30 21:59:36] Epoch [3], Loss: 0.6947, Accuracy: 34.11%, Time: 815.71 seconds
+[2024-09-30 22:13:14] Epoch [4], Loss: 0.6931, Accuracy: 34.17%, Time: 818.19 seconds
+-
+// Added multi-label classification and reduced batch size to 32
+// Timing did not improve and loss was significantly better - accuracy failing to improve
+-
+[2024-10-02 14:12:26] Epoch [1], Loss: 0.7724, Accuracy: 34.11%, Time: 802.30 seconds
+-
+// Added weight initialization, slightly improved train time
+-
