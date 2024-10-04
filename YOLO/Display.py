@@ -1,3 +1,5 @@
+# An AR system for smart image overlap reduction in augmented displays - making a display window that won't cover people when you look at them.
+
 import cv2
 import numpy as np
 from ultralytics import YOLO
