@@ -9,5 +9,5 @@ These Projects are from online courses found here: https://www.computervision.zo
 
 <p align="center">
   <img src="YOLO/Detect.gif" width="300" />
-  <img src="OpenCV/Cube.gif" width="600" />
+  <img src="OpenCV/Cube.gif" width="400" />
 </p>
