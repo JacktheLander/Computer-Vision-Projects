@@ -6,5 +6,8 @@ I trained my models for identifying surgical tools using the dataset found here:
 
 # OpenCV
 These Projects are from online courses found here: https://www.computervision.zone/course-list/
-![Cube](OpenCV/Cube.gif)
-![Detect](YOLO/Detect.gif)
+
+<p align="center">
+  <img src="YOLO/Detect.gif" width="300" />
+  <img src="OpenCV/Cube.gif" width="300" />
+</p>
