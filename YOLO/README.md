@@ -1,1 +1,1 @@
-![Detect1](Detect1.gif)
+![Detect](Detect.gif)
