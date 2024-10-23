@@ -1,8 +1,8 @@
 # Computer Vision Projects
 This is a repository of Python projects I made to further my understanding of computer vision and image processing, a technology that I am especially passionate about
 <p align="center">
-  <img src="YOLO/Detect.gif" width="300" />
-  <img src="OpenCV/Cube.gif" width="500" />
+  <img src="YOLO/Detect1.gif"/>
+  <img src="OpenCV/Cube.gif" width="540" />
 </p>
 
 # YOLO
