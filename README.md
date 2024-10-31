@@ -10,7 +10,7 @@ This is a repository of Python projects I made to further my understanding of co
 </p>
 
 # YOLO
-These projects use Ultralytics YOLO for object detection
+These projects use Ultralytics YOLO for object detection and classification
 
 # PyTorch
 I trained my models for identifying surgical tools using the dataset found here: https://www.kaggle.com/datasets/dilavado/labeled-surgical-tools/data
