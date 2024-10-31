@@ -8,6 +8,7 @@ This is a repository of Python projects I made to further my understanding of co
   <em width="400"> A YOLO implementation I built to detect people </em>
   <em width="400"> and an OpenCV project I developed to reconstruct a 3D image in 2D</em>
 </p>
+
 # YOLO
 These projects use Ultralytics YOLO for object detection
 
