@@ -5,8 +5,8 @@ This is a repository of Python projects I made to further my understanding of co
   <img src="OpenCV/3D Projection/Cube.gif" width="400" />
 </p>
 <p align="center">
-  <em width="400"> A YOLO implementation I built to only detect people </em>
-  <em width="400"> An OpenCV project I developed to reconstruct a 3D image in 2D</em>
+  <em width="400"> A YOLO implementation I built to detect people </em>
+  <em width="400"> and an OpenCV project I developed to reconstruct a 3D image in 2D</em>
 </p>
 # YOLO
 These projects use Ultralytics YOLO for object detection
