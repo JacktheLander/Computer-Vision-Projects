@@ -6,4 +6,4 @@ Model - download a small object detection model like yolov2n-9 and add it to ass
 
 # Scripts
 Video record script will test camera input and save
-Camera Capture and Object Detection will work together to capture camera input, convert tensors, and deploy the object detection model =-> currently stuck debugging compilation of tensor input lines
+Camera Capture and Object Detection will work together to capture camera input, convert tensors, and deploy the object detection model =-> currently stuck debugging compilation of tensor input lines<br>
