@@ -9,6 +9,9 @@ This is a repository of projects I made to further my understanding of computer 
   <em width="400"> and an OpenCV project I developed to reconstruct a 3D image in 2D</em>
 </p>
 
+# DIP
+Lab projects from a course taken in the pursuit of a M.S. in AI Engineering
+
 # YOLO
 These projects use Ultralytics YOLO for object detection and classification
 
